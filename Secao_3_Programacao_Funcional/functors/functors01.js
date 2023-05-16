@@ -16,6 +16,9 @@ function TipoSeguro(valor) {
     map(fn) {
       return this.invalido() ? TipoSeguro(null) : TipoSeguro(fn(this.valor));
     },
+    flatMap() {
+      return this.map(fn).valor;
+    },
   };
 }
 

@@ -15,6 +15,7 @@ fn.readDir(myPath)
     fn.removeOnlyNumbers(),
     fn.removeSymbols(symbols),
     fn.removeEmptyElements(),
+    fn.removeEndedWith("</font>"),
     fn.splitStringBy(" "),
     fn.removeOnlyNumbers(),
     groupBy((el) => el.toLowerCase()), // return several observables

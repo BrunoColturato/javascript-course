@@ -76,6 +76,16 @@ function removeOnlyNumbers() {
   }));
 }
 
+function removeEndedWith(pattern) {
+  return createPipeableOperator((subscriber) => ({
+    next(text) {
+      if (!text.endsWith(pattern)) {
+        subscriber.next(text);
+      }
+    },
+  }));
+}
+
 // Remove unwanted symbols from string
 function removeSymbols(symbols) {
   return createPipeableOperator((subscriber) => ({
@@ -139,6 +149,7 @@ module.exports = {
   readFile,
   removeEmptyElements,
   removeOnlyNumbers,
+  removeEndedWith,
   removeSymbols,
   splitStringBy,
   saveToFile,

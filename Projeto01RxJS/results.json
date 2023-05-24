@@ -92,12 +92,12 @@
   "count": 525
  },
  {
-  "word": "for",
-  "count": 516
- },
- {
   "word": "but",
   "count": 515
+ },
+ {
+  "word": "for",
+  "count": 514
  },
  {
   "word": "your",
@@ -472,10 +472,6 @@
   "count": 106
  },
  {
-  "word": "by",
-  "count": 105
- },
- {
   "word": "still",
   "count": 104
  },
@@ -604,6 +600,10 @@
   "count": 82
  },
  {
+  "word": "by",
+  "count": 82
+ },
+ {
   "word": "rosa",
   "count": 82
  },
@@ -678,10 +678,6 @@
  {
   "word": "than",
   "count": 69
- },
- {
-  "word": "<font",
-  "count": 68
  },
  {
   "word": "doing",
@@ -1400,10 +1396,6 @@
   "count": 27
  },
  {
-  "word": "corrections",
-  "count": 26
- },
- {
   "word": "taking",
   "count": 26
  },
@@ -1500,10 +1492,6 @@
   "count": 24
  },
  {
-  "word": "&",
-  "count": 24
- },
- {
   "word": "whoa",
   "count": 24
  },
@@ -1589,22 +1577,6 @@
  },
  {
   "word": "moment",
-  "count": 23
- },
- {
-  "word": "color=#741b47>sync",
-  "count": 23
- },
- {
-  "word": "</font><font",
-  "count": 23
- },
- {
-  "word": "color=#ead1dc>emelinewhovian</font>",
-  "count": 23
- },
- {
-  "word": "color=#741b47>wwwaddic7edcom</font>",
   "count": 23
  },
  {
@@ -1981,14 +1953,6 @@
  },
  {
   "word": "mad",
-  "count": 18
- },
- {
-  "word": "color=#ffff00",
-  "count": 18
- },
- {
-  "word": "size=14>wwwtvsubtitlesnet</font>",
   "count": 18
  },
  {
@@ -7720,6 +7684,10 @@
   "count": 3
  },
  {
+  "word": "corrections",
+  "count": 3
+ },
+ {
   "word": "ends",
   "count": 3
  },
@@ -9985,14 +9953,6 @@
  },
  {
   "word": "sync",
-  "count": 2
- },
- {
-  "word": "color=#ff0000><b>awaqeded</b></font>",
-  "count": 2
- },
- {
-  "word": "color=#ff0000><b>wwwaddic7edcom</b></font>",
   "count": 2
  },
  {
@@ -17985,6 +17945,10 @@
  },
  {
   "word": "rizzoli",
+  "count": 1
+ },
+ {
+  "word": "&",
   "count": 1
  },
  {

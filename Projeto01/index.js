@@ -3,7 +3,7 @@ const fn = require("./functions");
 
 const myPath = path.join(__dirname, "subtitles");
 
-const symbols = [".", "?", "-", ",", '"', "_", "<i>", "</i>", "\r", "[", "]", "(", ")", "!", ":", ";", "♪"];
+const symbols = [".", "?", "-", ",", '"', "_", "<i>", "</i>", "\r", "[", "]", "(", ")", "!", ":", ";", "♪", "$", "+"];
 
 fn.readDir(myPath) // Get name of files
   .then(fn.filesEndedWith(".srt")) // Filter valid files

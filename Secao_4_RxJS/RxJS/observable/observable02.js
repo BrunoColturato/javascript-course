@@ -1,6 +1,6 @@
 const { Observable } = require("rxjs");
 
-const obs = new Observable((subscriber) => {
+const obs$ = new Observable((subscriber) => {
   subscriber.next("Eu");
   subscriber.next("sou");
   subscriber.next("estudante");
@@ -12,7 +12,7 @@ const obs = new Observable((subscriber) => {
   }
 });
 
-obs.subscribe({
+obs$.subscribe({
   next(valor) {
     console.log(`Valor: ${valor}`);
   },
@@ -25,7 +25,7 @@ obs.subscribe({
 });
 
 // De forma equivalente
-// obs.subscribe({
+// obs$.subscribe({
 //   next: (valor) => console.log(`Valor: ${valor}`),
 //   error: (err) => console.error(`Erro: ${err}`),
 //   complete: () => console.log("Finalizado"),

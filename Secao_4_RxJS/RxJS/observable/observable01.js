@@ -12,11 +12,11 @@ const p = new Promise((resolve) => {
 });
 p.then(console.log);
 
-const obs = new Observable((subscriber) => {
+const obs$ = new Observable((subscriber) => {
   subscriber.next("Eu");
   subscriber.next("sou");
   subscriber.next("um");
   subscriber.next("observable");
   subscriber.complete();
 });
-obs.subscribe(console.log);
+obs$.subscribe(console.log);

@@ -5,7 +5,7 @@ Alguns pontos importantes:
 * Equivalente à Máquina de Turing;
 * Variáveis são imutáveis (imutabilidade);
 * Funções recebem apenas um **único** parâmetro (currying);
-* Tudo é função (até mesmo tipo de dados).
+* Tudo é função (não há tipos de dados básicos).
 
 ## Sintaxe
 
